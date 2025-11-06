@@ -1,59 +1,138 @@
-<html>
-    <head>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
+<!DOCTYPE html>
+<html lang="en">
 
-        <div id="navbar">
-            <h1 id="head">PORTFOLIO</h1>
-            <div id="fx">
-            <a href="#skill"><h5>Skills</h5></a>
-            <a href="#contact"><h5>Contact</h5></a>
-            <a><h5></h5></a></div>
-        </div>
-        <div id="name">
-             <img src="./portfolio img.jpg">
-             <div id="n1">
-            <h1>I'M KAVIYA K</h1>
-            <h3>ABOUT ME:</h3>
-            <p id="about">Hi! I'm a Computer Science and Business Systems (CSBS) student with a strong passion for problem-solving and logical thinking. Alongside my academic journey, I'm also a yoga champion, which has taught me discipline, focus, and balance—qualities I bring into my tech life as well.
-I'm deeply interested in Data Structures and Algorithms (DSA), and I actively sharpen my coding skills through platforms like LeetCode and CodeChef. I'm also exploring the world of Web Development, building interactive and responsive web applications that blend creativity with functionality.</p>
-            </div>
-        </div>
-    <div id="skill">
-    <h1>Skills<span class="line"></span></h1>
-    <div class="container">
-            <div id="skills">
-                <h2>Programming</h2>
-                <ul>
-                <li><b>C</b></li>
-                <li><b>PYTHON</b></li>
-                <li><b>JAVA</b></li>
-                <li><b>DATA STRUCUTURES</b></li> 
-                </ul>
-                <img src="./ChatGPT Image Jun 9, 2025, 03_38_35 PM.png"> 
-            </div>
-        <div id="web">
-            <h2>Web Development</h2>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaviya K | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">Portfolio</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav> <!-- Home Section -->
+    <section id="home" class="home">
+        <div class="home-content">
+            <h1>Hi, I'm <span>Kaviya K</span></h1>
+            <h3>Software Developer | Web Enthusiast | Problem Solver</h3>
+            <p> I’m passionate about building impactful software, solving logical problems, and creating user-friendly
+                websites. With expertise in Java, Python, DSA, and Web Development, I aim to bring ideas to life through
+                clean, efficient code. </p> 
+                <a href="#contact" class="btn">Get in Touch</a>
+                <div class="achievements-card">
+            <h3>My Achievements</h3>
             <ul>
-            <li><b>HTML</b></li>
-            <li><b>CSS</b></li>
-            <li><b>JAVA SCRIPT</b></li>
-            <li><b>SQL</b></li>
+                <li>✅ Solved 200+ questions on LeetCode</li>
+                <li>✅ Solved 300+ questions on CodeChef</li>
+                <li>✅ Participated in 24hr & 4hr coding hackathons</li>
+                <li>🏆 International Yoga Champion 2021</li>
             </ul>
-        </div>   
-    </div>
-   
-    </div>
-        <div id="contact">
-            <h2>For Further Details Contact</h2>
-            <a href="https://wa.me/918072007223" target="_blank">
-            <img src="./images.jpeg" id="wp"></a>
-            <a href="https://instagram.com/heartless._.stupid" id="insta">
-            <img src="./insta.jpeg" id="wp"></a>
-            <a href="https://www.linkedin.com/in/kaviya-k-b810a82a6" target="_blank">
-  <img src="./linkedin.avif" id="in">
-</a>
         </div>
-    </body>
+        </div>
+        <div class="home-img"> <img src="./portfolio img.jpg" alt="Kaviya"> </div>
+    </section>
+    <section id="about" class="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-container">
+            <div class="about-text">
+                <p> I'm a Computer Science and Business Systems (CSBS) student who loves exploring technology and
+                    solving complex problems. My background as a yoga champion has taught me balance, discipline, and
+                    focus — qualities I bring into my tech journey. I actively practice Data Structures and Algorithms
+                    (DSA) on platforms like LeetCode and CodeChef, and I enjoy building web applications that blend
+                    creativity with functionality. </p>
+                <p> I believe learning never stops — every new project is a chance to grow, experiment, and make
+                    something meaningful. </p>
+            </div>
+            <div class="education">
+                <h3>Education</h3>
+                <div class="edu-cards">
+                    <div class="edu-card">
+                        <h4>Undergraduate</h4>
+                        <p>KIT - Kalaignar Karunanidhi Institute of Technology, Coimbatore</p>
+                        <p><strong>CGPA:</strong> 8.14</p>
+                    </div>
+                    <div class="edu-card">
+                        <h4>HSC</h4>
+                        <p>Siwalik Matric Hr Sec School, Pollachi</p>
+                        <p><strong>81%</strong></p>
+                    </div>
+                    <div class="edu-card">
+                        <h4>SSLC</h4>
+                        <p>Siwalik Matric Hr Sec School, Pollachi</p>
+                        <p><strong>All Pass</strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-container">
+            <div class="skill-box">
+                <h3>Programming Languages</h3>
+                <ul>
+                    <li>Java</li>
+                    <li>Python</li>
+                    <li>C</li>
+                    <li>SQL</li>
+                </ul>
+            </div>
+            <div class="skill-box">
+                <h3>Web Development</h3>
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                    <li>Bootstrap</li>
+                </ul>
+            </div>
+            <div class="skill-box">
+                <h3>Core Concepts</h3>
+                <ul>
+                    <li>Data Structures & Algorithms</li>
+                    <li>Object Oriented Programming</li>
+                    <li>Database Management Systems</li>
+                    <li>Software Engineering</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="projects" class="projects">
+        <h2 class="section-title">Projects</h2>
+        <div class="project-container">
+            <div class="project-card">
+                <h3>FurCreates - NGO Website</h3>
+                <p> A responsive and compassionate website built using HTML, CSS, and Bootstrap to promote dog adoption
+                    and support stray animals through donations and awareness. </p>
+            </div>
+            <div class="project-card">
+                <h3>Java-Based Billing System</h3>
+                <p> A Java project that automates billing for retail stores using file handling, classes, and error
+                    handling concepts for better user efficiency. </p>
+            </div>
+            <div class="project-card">
+                <h3>Portfolio Website</h3>
+                <p> A clean, minimal, and responsive personal portfolio showcasing my skills, education, and
+                    achievements in a structured layout. </p>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <h2 class="section-title">Contact Me</h2>
+        <p>Let’s collaborate or discuss opportunities!</p>
+        <div class="social-icons"> <a href="https://wa.me/918072007223" target="_blank"><img src="./images.jpeg"
+                    alt="WhatsApp"></a> <a href="https://instagram.com/heartless._.stupid" target="_blank"><img
+                    src="./insta.jpeg" alt="Instagram"></a> <a href="https://www.linkedin.com/in/kaviya-k-b810a82a6"
+                target="_blank"><img src="./linkedin.avif" alt="LinkedIn"></a> </div>
+        <p class="footer">© 2025 Kaviya K | Designed with ❤️ and Code</p>
+    </section>
+</body> 
 </html>
